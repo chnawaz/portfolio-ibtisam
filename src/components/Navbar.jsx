@@ -21,7 +21,7 @@ function Navbar() {
           <a
             href="/"
             className={`${
-              pathname === "/" ? "underline" : ""
+              pathname === "/" || pathname === "/work"  ? "underline" : ""
             } w-[58px] h-[29px] font-[700] text-[24px] leading-[120%] tracking-[0%]`}
           >
             Work

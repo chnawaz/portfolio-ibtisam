@@ -6,7 +6,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 function Footer() {
   return (
     <>
-        <div className='  max-w-[1336px] h-[32px] gap-[164px] flex pb-[63px] m-auto mt-[164px]'>
+        <div className='  max-w-[1336px] h-[32px] gap-[164px] flex pb-[63px] m-auto mt-[164px] px-8'>
 
 
             <div className='w-[944px] h-[32px] gap-[32px] flex flex-row'>
@@ -32,18 +32,16 @@ function Footer() {
             </div>
 
             
-            <div className='w-[228px] h-[32px] gap-[32px] flex'>
-                <div className='w-[65px] h-[29px]'>
+            <div className=' gap-[32px] flex'>
+                <div className=''>
                     <p className='font-[700] text-[24px]  leading-[120%] tracking-[0%] '>About</p>
                 </div>
 
-                <div className='w-[131px] h-[32px] gap-[10px] flex'>
-                    <div className='w-[89px] h-[29px]'>
+                <div className=' gap-[10px] flex'>
+                    <div className=''>
                         <p className='font-[700] text-[24px]  leading-[120%] tracking-[0%] '>LinkedIn</p>
                     </div>
-                    <div className='w-[32px] h-[32px]'>
-                        <FaExternalLinkAlt className="w-full h-full"/>
-                    </div>
+                  
                 </div>
 
             </div>

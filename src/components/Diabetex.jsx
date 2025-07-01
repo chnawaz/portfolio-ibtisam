@@ -45,18 +45,20 @@ import Footer from "./Footer";
 function Diabetex() {
   return (
     <>
-      <div className="max-w-[1336px]  flex flex-col gap-[32px] m-auto">
-        <Navbar/>
+      <div className="max-w-[1336px]  flex flex-col gap-[32px] m-auto px-8">
+        <Navbar />
         {/* main content div after navbar start */}
         <div className="w-full flex flex-col gap-[80px]">
           {/* 1st div inside main div start */}
           <div className="w-full flex flex-col gap-[24px]">
-            <div className="w-full flex gap-[8px] items-center">
-              <HiArrowSmLeft className="w-[32px] h-[32px]" />
-              <p className="font-bold text-[24px] leading-[120%] tracking-[0px]">
-                Back To Home
-              </p>
-            </div>
+            <a href="/">
+              <div className="w-full flex gap-[8px] items-center">
+                <HiArrowSmLeft className="w-[32px] h-[32px]" />
+                <p className="font-bold text-[24px] leading-[120%] tracking-[0px]">
+                  Back To Home
+                </p>
+              </div>
+            </a>
             <div className=" w-full flex gap-[24px] p-[48px] bg-[#99DAC6] items-center">
               <div className="flex flex-col gap-[12px] w-[45%] ">
                 <div className="w-full">
@@ -87,7 +89,7 @@ function Diabetex() {
           {/* 1st div inside main div end */}
 
           {/* 2nd div inside main div big div start */}
-          <div className="w-full felx flex-col pr-[120px] pl-[120px] gap-[120px]">
+          <div className="w-full felx flex-col px-[120px] gap-[120px]">
             {/* 1st div iside big div start */}
             <div className="w-full flex flex-col gap-[32px]">
               <div className="w-full flex gap-[24px]">
@@ -174,7 +176,11 @@ function Diabetex() {
               {/* 1st in 3rd big end */}
               {/* 2nd in 3rd big start */}
               <div className="w-full flex  gap-[64px] items-center justify-center relative">
-                <img src={imgg} alt="" className="w-[30%] absolute top-[84px] left-[-40px]" />
+                <img
+                  src={imgg}
+                  alt=""
+                  className="w-[30%] absolute top-[84px] left-[-40px]"
+                />
                 <div className="bg-[#ffffff75] p-[7px] rounded-[8.35px] shadow-[0px_2.46px_24.63px_0px_#0000000F] w-[25%] z-10">
                   <img className=" rounded-[8.35px]" src={img31} alt="" />
                 </div>
@@ -218,7 +224,11 @@ function Diabetex() {
               {/* 2nd in 3rd big end */}
               {/* 3rd in 3rd big start */}
               <div className="w-full flex  gap-[64px] items-center justify-center relative">
-                <img src={imgg} alt="" className="w-[30%] absolute top-[84px] left-[-40px]" />
+                <img
+                  src={imgg}
+                  alt=""
+                  className="w-[30%] absolute top-[84px] left-[-40px]"
+                />
                 <div className="bg-[#ffffff75] p-[7px] rounded-[8.35px] shadow-[0px_2.46px_24.63px_0px_#0000000F] w-[25%] z-10">
                   <img className=" rounded-[8.35px]" src={img32} alt="" />
                 </div>
@@ -253,7 +263,11 @@ function Diabetex() {
               {/* 3rd in 3rd big end */}
               {/* 4th in 3rd big start */}
               <div className="w-full flex  gap-[64px] items-center justify-center relative">
-                <img src={imgg} alt="" className="w-[30%] absolute top-[84px] left-[-40px]" />
+                <img
+                  src={imgg}
+                  alt=""
+                  className="w-[30%] absolute top-[84px] left-[-40px]"
+                />
                 <div className="bg-[#ffffff75] p-[7px] rounded-[8.35px] shadow-[0px_2.46px_24.63px_0px_#0000000F] w-[25%] z-10">
                   <img className=" rounded-[8.35px]" src={img33} alt="" />
                 </div>
@@ -286,7 +300,11 @@ function Diabetex() {
               {/* 4th in 3rd big end */}
               {/* 5th in 3rd big start */}
               <div className="w-full flex  gap-[64px] items-center justify-center relative">
-                <img src={imgg} alt="" className="w-[30%] absolute top-[84px] left-[-40px]" />
+                <img
+                  src={imgg}
+                  alt=""
+                  className="w-[30%] absolute top-[84px] left-[-40px]"
+                />
                 <div className="bg-[#ffffff75] p-[7px] rounded-[8.35px] shadow-[0px_2.46px_24.63px_0px_#0000000F] w-[25%] z-10">
                   <img className=" rounded-[8.35px]" src={img34} alt="" />
                 </div>
@@ -663,7 +681,7 @@ function Diabetex() {
                       </p>
                     </div>
                   </div>
-                  <div className="w-full flex flex-wrap gap-[32px]">
+                  <div className="w-full flex flex-wrap gap-[32px]  items-center justify-center">
                     <div className="bg-[#ffffff75] p-[7px] rounded-[8.35px] shadow-[0px_2.46px_24.63px_0px_#0000000F]">
                       <img
                         className=" rounded-[8.35px] w-[227.85340881347656px]"
@@ -982,9 +1000,19 @@ function Diabetex() {
                   {/* 8.4.5 start */}
                   <div className="w-full flex flex-col gap-[32px] ">
                     <div className="flex flex-col gap-[16px]">
-                      <p className=" font-bold text-[20px] leading-[1.2] tracking-[0em] uppercase text-slate-600">Main TakeAways & What I would do differently</p>
-                      <p className="font-bold text-[40px] leading-[1.2] tracking-[0em]">Give yourself room to make mistakes, keep learning, and iterate until it's there.</p>
-                      <p className="font-bold text-[24px] leading-[1.5] tracking-[0em]">Steve Jobs: <span className="font-medium text-[24px] leading-[1.5] tracking-[0em] text-slate-600">"Stay hungry, stay foolish."</span></p>
+                      <p className=" font-bold text-[20px] leading-[1.2] tracking-[0em] uppercase text-slate-600">
+                        Main TakeAways & What I would do differently
+                      </p>
+                      <p className="font-bold text-[40px] leading-[1.2] tracking-[0em]">
+                        Give yourself room to make mistakes, keep learning, and
+                        iterate until it's there.
+                      </p>
+                      <p className="font-bold text-[24px] leading-[1.5] tracking-[0em]">
+                        Steve Jobs:{" "}
+                        <span className="font-medium text-[24px] leading-[1.5] tracking-[0em] text-slate-600">
+                          "Stay hungry, stay foolish."
+                        </span>
+                      </p>
                     </div>
                   </div>
                   {/* 8.4.5 end */}
@@ -998,9 +1026,8 @@ function Diabetex() {
           {/* 2nd div inside main div big div end */}
         </div>
         {/* main content div after navbar end */}
-        
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }
