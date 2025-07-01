@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "Cabinet";
+    src: url("./assets/fonts/cabinet/CabinetGrotesk-Variable.ttf") format("truetype");
+}
+
+body{
+    font-family: "Cabinet";
+    background-color: #EFEEF3;
+
+}
