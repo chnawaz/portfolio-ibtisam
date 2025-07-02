@@ -199,7 +199,7 @@ function Work() {
       </div>
 
       {/* after main and nav start */}
-      <div className=" max-w-[1336px]  gap-[32px] flex flex-col  m-auto mt-[164px] px-8">
+      <div className=" max-w-[1336px]  gap-[32px] flex flex-col  m-auto mt-[164px] xl:px-8 2xl:px-0">
         <div className="w-full   border-t-[3px]">
           
         </div>

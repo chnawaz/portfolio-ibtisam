@@ -181,7 +181,7 @@ function Diabetex() {
               </div>
               {/* 1st in 3rd big end */}
               {/* 2nd in 3rd big start */}
-              <div ref={ divRef } className="w-full flex  gap-[64px] items-center justify-between relative">
+              <div  className="w-full flex  gap-[64px] items-center justify-between relative">
                 <img
                   src={imgg}
                   alt=""

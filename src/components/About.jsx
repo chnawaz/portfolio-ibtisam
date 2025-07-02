@@ -378,7 +378,7 @@ function About() {
       </div>
 
       {/* after main div just befor footer start */}
-      <div className=" max-w-[1336px]   gap-[32px] flex flex-col  mt-[164px]  m-auto px-8">
+      <div className=" max-w-[1336px]   gap-[32px] flex flex-col  mt-[164px]  m-auto xl:px-8 2xl:px-0">
         <div className="w-full  py-[32px] border-t-[3px]">
           <p className="font-[700] text-[32px]  leading-[120%] tracking-[0%]">
             Feel free to reach and check out my dribbble shots!
