@@ -211,13 +211,14 @@ function Work() {
           </p>
           </div>
 
-        <div className="w-[183px] h-[61px] py-[16px] px-[48px] gap-[10px] flex bg-black mt-[32px] ">
-          <div className="w-[87px] h-[29px]  border-b-[2px] border-white">
+        <div className="w-[183px] h-[61px] py-[16px] px-[48px] gap-[10px] flex bg-black mt-[32px] cursor-pointer ">
+          <div className="w-[87px] h-[29px]  group  transition duration-300">
             <a
               className="text-white font-[800] text-[24px]  leading-[120%] tracking-[0%] "
               href=""
             >
               Contact
+              <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span>
             </a>
           </div>
         </div>

@@ -120,13 +120,14 @@ function Diabetex() {
                   </div>
                 </div>
               </div>
-              <div className=" bg-black py-[16px] px-[38px]  gap-[10px] flex w-[44%]">
-                <div>
+              <div className=" bg-black py-[16px] px-[38px]  gap-[10px] flex w-[44%] cursor-pointer group  transition duration-300">
+                <div className="mt-0.5">
                   <a
                     href=""
-                    className="font-extrabold text-[24px] leading-[120%] tracking-[0px]  decoration-solid decoration-[0px]  text-white border-b-3"
+                    className="font-extrabold text-[24px] leading-[120%] tracking-[0px]  decoration-solid decoration-[0px]  text-white "
                   >
                     Experience Project Prototype
+                     <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span>
                   </a>
                 </div>
                 <div className="text-white  ">
@@ -181,7 +182,7 @@ function Diabetex() {
                 <img
                   src={imgg}
                   alt=""
-                  className="w-[28%] absolute top-[84px] left-[-55px]"
+                  className="w-[30%] absolute top-[84px] left-[-53px]"
                 />
                 <div className="bg-[#ffffff75] p-[7px] rounded-[8.35px] shadow-[0px_2.46px_24.63px_0px_#0000000F] max-w-[217px] z-10">
                   <img className=" rounded-[8.35px]" src={img31} alt="" />
@@ -229,7 +230,7 @@ function Diabetex() {
                 <img
                   src={imgg}
                   alt=""
-                  className="w-[28%] absolute top-[84px] left-[-55px]"
+                  className="w-[30%] absolute top-[84px] left-[-53px]"
                 />
                 <div className="bg-[#ffffff75] p-[7px] rounded-[8.35px] shadow-[0px_2.46px_24.63px_0px_#0000000F] max-w-[217px] z-10">
                   <img className=" rounded-[8.35px]" src={img32} alt="" />
@@ -268,7 +269,7 @@ function Diabetex() {
                 <img
                   src={imgg}
                   alt=""
-                  className="w-[28%] absolute top-[84px] left-[-55px]"
+                  className="w-[30%] absolute top-[84px] left-[-53px]"
                 />
                 <div className="bg-[#ffffff75] p-[7px] rounded-[8.35px] shadow-[0px_2.46px_24.63px_0px_#0000000F] max-w-[217px] z-10">
                   <img className=" rounded-[8.35px]" src={img33} alt="" />
@@ -305,7 +306,7 @@ function Diabetex() {
                 <img
                   src={imgg}
                   alt=""
-                  className="w-[28%] absolute top-[84px] left-[-55px]"
+                  className="w-[30%] absolute top-[84px] left-[-53px]"
                 />
                 <div className="bg-[#ffffff75] p-[7px] rounded-[8.35px] shadow-[0px_2.46px_24.63px_0px_#0000000F] max-w-[217px] z-10">
                   <img className=" rounded-[8.35px]" src={img34} alt="" />

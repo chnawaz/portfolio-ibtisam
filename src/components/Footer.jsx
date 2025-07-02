@@ -15,17 +15,23 @@ function Footer() {
                     <div className='w-[32px] h-[32px]'>
                         <IoMdMail className="w-full h-full" />
                     </div>
-                    <div className='w-[278px] h-[29px]'>
-                        <p className='font-[700] text-[24px]  leading-[120%] tracking-[0%] underline'>Ibtisam.visuals@gmail.com</p>
+                    <div className='mt-0.5 group  transition duration-300'>
+                       <a href="">
+                         <p className='font-[700] text-[24px]  leading-[120%] tracking-[0%] '>Ibtisam.visuals@gmail.com</p>
+                         <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black"></span>
+                       </a>
                     </div>
                 </div>
 
                 <div className='w-[250px] h-[32px] gap-[4px] flex ml-[32px]'>
-                    <div className='w-[25.33px] h-[25.33px]'>
-                        <FaPhone className="w-full h-full" />
+                    <div className='w-[20.33px] h-[20.33px]'>
+                        <FaPhone className= "mt-1 w-full h-full" />
                     </div>
-                    <div className='w-[200px] h-[29px]'>
-                        <p className='font-[700] text-[24px]  leading-[120%] tracking-[0%] '>+92 3067161699</p>
+                    <div className=' group  transition duration-300 '>
+                        <a href="">
+                            <p className=' font-[700] text-[24px]  leading-[120%] tracking-[0%]  '>+92 3067161699</p>
+                            <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black"></span>
+                        </a>
                     </div>
                 </div>
 
@@ -33,13 +39,19 @@ function Footer() {
 
             
             <div className=' gap-[32px] flex'>
-                <div className=''>
+                <div className=' group  transition duration-300'>
+                    <a href="">
                     <p className='font-[700] text-[24px]  leading-[120%] tracking-[0%] '>About</p>
+                    <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black"></span>
+                    </a>
                 </div>
 
                 <div className=' gap-[10px] flex'>
-                    <div className=''>
-                        <p className='font-[700] text-[24px]  leading-[120%] tracking-[0%] '>LinkedIn</p>
+                    <div className='group  transition duration-300'>
+                        <a href="">
+                            <p className='font-[700] text-[24px]  leading-[120%] tracking-[0%] '>LinkedIn</p>
+                            <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black"></span>
+                        </a>
                     </div>
                   
                 </div>
