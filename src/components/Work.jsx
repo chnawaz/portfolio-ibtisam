@@ -9,7 +9,7 @@ import img5 from "../assets/diabticsimages/img5.png";
 function Work() {
   return (
     <>
-      <div className="max-w-[1336px]  gap-[120px] flex flex-col m-auto px-8">
+      <div className="max-w-[1336px]  gap-[120px] flex flex-col m-auto xl:px-8 2xl:px-0">
         <div className="w-full  gap-[80px] flex flex-col">
           <Navbar />
 

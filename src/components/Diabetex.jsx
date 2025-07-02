@@ -1,4 +1,3 @@
-import React from "react";
 import { HiArrowSmLeft } from "react-icons/hi";
 import { LuExternalLink } from "react-icons/lu";
 import img1 from "../assets/diabticsimages/1.png";
@@ -41,11 +40,18 @@ import img110 from "../assets/diabticsimages/110.png";
 import imgg from "../assets/diabticsimages/g.png";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import { useEffect, useRef } from "react";
 
 function Diabetex() {
+  const divRef = useRef(null);
+
+  useEffect(() => {
+    console.log("Width: ");
+    console.log(divRef.current.getBoundingClientRect());
+  }, []);
   return (
     <>
-      <div className="max-w-[1336px]  flex flex-col gap-[32px] m-auto px-8">
+      <div className="max-w-[1336px]  flex flex-col gap-[32px] m-auto xl:px-8 2xl:px-0">
         <Navbar />
         {/* main content div after navbar start */}
         <div className="w-full flex flex-col gap-[80px]">
@@ -118,7 +124,7 @@ function Diabetex() {
                   </div>
                 </div>
               </div>
-              <div className="w-[45%] bg-black pt-[16px] pr-[48px] pb-[16px] pl-[48px] gap-[10px] flex items-center">
+              <div className=" bg-black py-[16px] px-[38px]  gap-[10px] flex w-[44%]">
                 <div>
                   <a
                     href=""
@@ -175,25 +181,25 @@ function Diabetex() {
               </div>
               {/* 1st in 3rd big end */}
               {/* 2nd in 3rd big start */}
-              <div className="w-full flex  gap-[64px] items-center justify-center relative">
+              <div ref={ divRef } className="w-full flex  gap-[64px] items-center justify-between relative">
                 <img
                   src={imgg}
                   alt=""
-                  className="w-[30%] absolute top-[84px] left-[-40px]"
+                  className="w-[28%] absolute top-[84px] left-[-55px]"
                 />
-                <div className="bg-[#ffffff75] p-[7px] rounded-[8.35px] shadow-[0px_2.46px_24.63px_0px_#0000000F] w-[25%] z-10">
+                <div className="bg-[#ffffff75] p-[7px] rounded-[8.35px] shadow-[0px_2.46px_24.63px_0px_#0000000F] max-w-[217px] z-10">
                   <img className=" rounded-[8.35px]" src={img31} alt="" />
                 </div>
 
-                <div className="flex flex-col gap-[10px] w-[45%]">
-                  <div className="w-full">
+                <div className="flex flex-col gap-[10px] max-w-[554.3px]">
+                  <div className="">
                     <p className="font-extrabold text-[32px] leading-[120%] tracking-[0px]">
                       Have Accountability Partner
                     </p>
                   </div>
                   <div className="w-full bullet-text">
-                    <p className="font-medium text-[24px] leading-[150%] tracking-[0px] text-slate-600 ">
-                      <ul className="list-disc pl-10">
+                    {/* <p className="font-medium text-[24px] leading-[150%] tracking-[0px] text-slate-600 "> */}
+                      <ul className="list-disc pl-8 font-medium text-[24px] leading-[150%] tracking-[0px] text-slate-600">
                         <li>
                           Stay connected with your doctor 24/7 for guidance and
                           support during any complications
@@ -201,7 +207,7 @@ function Diabetex() {
                         <li>Provides a source of extrinsic motivation</li>
                         <li>Patient centered approach</li>
                       </ul>
-                    </p>
+                    {/* </p> */}
                   </div>
                   <div className="w-full">
                     <p className="font-medium text-[16px] leading-[150%] tracking-[0px] text-slate-600">
@@ -215,7 +221,7 @@ function Diabetex() {
                   </div>
                 </div>
 
-                <div className="w-[25%]">
+                <div className="max-w-[196px]">
                   <p className="font-bold text-[200px] leading-[130%] tracking-[0px] text-[#0000000D]">
                     01
                   </p>
@@ -223,13 +229,13 @@ function Diabetex() {
               </div>
               {/* 2nd in 3rd big end */}
               {/* 3rd in 3rd big start */}
-              <div className="w-full flex  gap-[64px] items-center justify-center relative">
+              <div className="w-full flex  gap-[64px] items-center justify-between relative">
                 <img
                   src={imgg}
                   alt=""
-                  className="w-[30%] absolute top-[84px] left-[-40px]"
+                  className="w-[28%] absolute top-[84px] left-[-55px]"
                 />
-                <div className="bg-[#ffffff75] p-[7px] rounded-[8.35px] shadow-[0px_2.46px_24.63px_0px_#0000000F] w-[25%] z-10">
+                <div className="bg-[#ffffff75] p-[7px] rounded-[8.35px] shadow-[0px_2.46px_24.63px_0px_#0000000F] max-w-[217px] z-10">
                   <img className=" rounded-[8.35px]" src={img32} alt="" />
                 </div>
 
@@ -241,7 +247,7 @@ function Diabetex() {
                   </div>
                   <div className="w-full">
                     <p className="font-medium text-[24px] leading-[150%] tracking-[0px] text-slate-600">
-                      <ul className="list-disc pl-5">
+                      <ul className="list-disc pl-8">
                         <li>
                           Send your biomarker report before and after the meal
                         </li>
@@ -262,13 +268,13 @@ function Diabetex() {
               </div>
               {/* 3rd in 3rd big end */}
               {/* 4th in 3rd big start */}
-              <div className="w-full flex  gap-[64px] items-center justify-center relative">
+              <div className="w-full flex  gap-[64px] items-center justify-between relative">
                 <img
                   src={imgg}
                   alt=""
-                  className="w-[30%] absolute top-[84px] left-[-40px]"
+                  className="w-[28%] absolute top-[84px] left-[-55px]"
                 />
-                <div className="bg-[#ffffff75] p-[7px] rounded-[8.35px] shadow-[0px_2.46px_24.63px_0px_#0000000F] w-[25%] z-10">
+                <div className="bg-[#ffffff75] p-[7px] rounded-[8.35px] shadow-[0px_2.46px_24.63px_0px_#0000000F] max-w-[217px] z-10">
                   <img className=" rounded-[8.35px]" src={img33} alt="" />
                 </div>
 
@@ -280,7 +286,7 @@ function Diabetex() {
                   </div>
                   <div className="w-full">
                     <p className="font-medium text-[24px] leading-[150%] tracking-[0px] text-slate-600">
-                      <ul className="list-disc pl-5">
+                      <ul className="list-disc pl-8">
                         <li>Send Proof of completing your tasks</li>
                         <li>
                           Make sure to log your blood pressure, sugar level and
@@ -299,13 +305,13 @@ function Diabetex() {
               </div>
               {/* 4th in 3rd big end */}
               {/* 5th in 3rd big start */}
-              <div className="w-full flex  gap-[64px] items-center justify-center relative">
+              <div className="w-full flex  gap-[64px] items-center justify-between relative">
                 <img
                   src={imgg}
                   alt=""
-                  className="w-[30%] absolute top-[84px] left-[-40px]"
+                  className="w-[28%] absolute top-[84px] left-[-55px]"
                 />
-                <div className="bg-[#ffffff75] p-[7px] rounded-[8.35px] shadow-[0px_2.46px_24.63px_0px_#0000000F] w-[25%] z-10">
+                <div className="bg-[#ffffff75] p-[7px] rounded-[8.35px] shadow-[0px_2.46px_24.63px_0px_#0000000F] max-w-[217px] z-10">
                   <img className=" rounded-[8.35px]" src={img34} alt="" />
                 </div>
 
@@ -317,7 +323,7 @@ function Diabetex() {
                   </div>
                   <div className="w-full">
                     <p className="font-medium text-[24px] leading-[150%] tracking-[0px] text-slate-600">
-                      <ul className="list-disc pl-5">
+                      <ul className="list-disc pl-10">
                         <li>
                           Let the expert assist you with any complications
                         </li>

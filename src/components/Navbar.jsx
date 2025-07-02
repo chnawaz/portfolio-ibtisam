@@ -6,7 +6,7 @@ function Navbar() {
   console.log(pathname);
   return (
     <>
-      <div className="max-w-[1336px] h-[92px] pt-[24px] pb-[16px] flex justify-between ">
+      <div className="max-w-[1336px]  h-[92px] pt-[24px] pb-[16px] flex justify-between ">
         <div className="w-[280px] h-[52px] gap-[10px] flex ">
           <img
             className="h-[52px] w-[52px] rounded-[50%]"

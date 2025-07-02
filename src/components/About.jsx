@@ -6,7 +6,7 @@ import Footer from "./Footer";
 function About() {
   return (
     <>
-      <div className="max-w-[1336px]  gap-[80px] flex flex-col m-auto px-8">
+      <div className="max-w-[1336px]  gap-[80px] flex flex-col m-auto xl:px-8 2xl:px-0">
         <Navbar />
 
         {/* main part after navbar start */}
