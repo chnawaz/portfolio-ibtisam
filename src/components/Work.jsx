@@ -6,7 +6,12 @@ import img3 from "../assets/diabticsimages/img3.png";
 import img4 from "../assets/diabticsimages/img4.png";
 import img5 from "../assets/diabticsimages/img5.png";
 
+
+
+
 function Work() {
+
+  
   return (
     <>
       <div className="max-w-[1336px]  gap-[120px] flex flex-col m-auto xl:px-8 2xl:px-0">
@@ -46,9 +51,9 @@ function Work() {
         <div className="w-full  gap-[80px] flex flex-col ">
           <div className="  w-full  gap-[80px] flex flex-row">
             <div className="w-[50%] gap-[24px] flex flex-col">
-              <div className="object-cover h-[395px]">
+              <div className="object-cover h-[395px] image">
                 <a href="/work">
-                  <img className="object-cover h-[395px] w-full" src={img1} alt="" />
+                  <img className=" object-cover h-[395px] w-full hover:scale-105 duration-400" src={img1} alt="" />
                 </a>
               </div>
               <div className=" gap-[12px] flex flex-col">
@@ -76,7 +81,7 @@ function Work() {
             <div className="w-[50%] gap-[24px] flex flex-col">
               <div className="">
                 <a href="/work">
-                  <img className="object-cover h-[395px] w-full" src={img2} alt="" />
+                  <img className="object-cover h-[395px] w-full hover:scale-105 duration-400" src={img2} alt="" />
                 </a>
               </div>
               <div className=" gap-[12px] flex flex-col">
@@ -109,7 +114,7 @@ function Work() {
             <div className="w-[50%] gap-[24px] flex flex-col ">
               <div className="">
                 <a href="/work">
-                  <img className="object-cover h-[395px] w-full" src={img3} alt="" />
+                  <img className="object-cover h-[395px] w-full hover:scale-105 duration-400" src={img3} alt="" />
                 </a>
               </div>
               <div className=" gap-[12px] flex flex-col">
@@ -137,7 +142,7 @@ function Work() {
             <div className=" w-[50%] gap-[24px] flex flex-col">
               <div className="">
                 <a href="/work">
-                  <img className="object-cover h-[395px] w-full" src={img4} alt="" />
+                  <img className="object-cover h-[395px] w-full hover:scale-105 duration-400" src={img4} alt="" />
                 </a>
               </div>
               <div className=" gap-[12px] flex flex-col">
@@ -171,7 +176,7 @@ function Work() {
             <div className="w-[50%]  gap-[24px] flex flex-col">
               <div className="">
                 <a href="/work">
-                  <img className="object-cover h-[395px] w-full" src={img5} alt="" />
+                  <img className="object-cover h-[395px] w-full hover:scale-105 duration-400" src={img5} alt="" />
                 </a>
               </div>
               <div className=" gap-[12px] flex flex-col">
