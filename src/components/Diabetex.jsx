@@ -40,15 +40,11 @@ import img110 from "../assets/diabticsimages/110.png";
 import imgg from "../assets/diabticsimages/g.png";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import { useEffect, useRef } from "react";
+// import { useEffect, useRef } from "react";
 
 function Diabetex() {
-  const divRef = useRef(null);
 
-  useEffect(() => {
-    console.log("Width: ");
-    console.log(divRef.current.getBoundingClientRect());
-  }, []);
+    
   return (
     <>
       <div className="max-w-[1336px]  flex flex-col gap-[32px] m-auto xl:px-8 2xl">
@@ -246,8 +242,8 @@ function Diabetex() {
                     </p>
                   </div>
                   <div className="w-full">
-                    <p className="font-medium text-[24px] leading-[150%] tracking-[0px] text-slate-600">
-                      <ul className="list-disc pl-8">
+                    {/* <p className="font-medium text-[24px] leading-[150%] tracking-[0px] text-slate-600"> */}
+                      <ul className="list-disc pl-8 font-medium text-[24px] leading-[150%] tracking-[0px] text-slate-600">
                         <li>
                           Send your biomarker report before and after the meal
                         </li>
@@ -256,7 +252,7 @@ function Diabetex() {
                           progress
                         </li>
                       </ul>
-                    </p>
+                    {/* </p> */}
                   </div>
                 </div>
 
@@ -285,15 +281,15 @@ function Diabetex() {
                     </p>
                   </div>
                   <div className="w-full">
-                    <p className="font-medium text-[24px] leading-[150%] tracking-[0px] text-slate-600">
-                      <ul className="list-disc pl-8">
+                    {/* <p className="font-medium text-[24px] leading-[150%] tracking-[0px] text-slate-600"> */}
+                      <ul className="list-disc pl-8 font-medium text-[24px] leading-[150%] tracking-[0px] text-slate-600">
                         <li>Send Proof of completing your tasks</li>
                         <li>
                           Make sure to log your blood pressure, sugar level and
                           other biomarker on assigned time
                         </li>
                       </ul>
-                    </p>
+                    {/* </p> */}
                   </div>
                 </div>
 
@@ -322,8 +318,8 @@ function Diabetex() {
                     </p>
                   </div>
                   <div className="w-full">
-                    <p className="font-medium text-[24px] leading-[150%] tracking-[0px] text-slate-600">
-                      <ul className="list-disc pl-10">
+                    {/* <p className="font-medium text-[24px] leading-[150%] tracking-[0px] text-slate-600"> */}
+                      <ul className="list-disc pl-10 font-medium text-[24px] leading-[150%] tracking-[0px] text-slate-600">
                         <li>
                           Let the expert assist you with any complications
                         </li>
@@ -332,7 +328,7 @@ function Diabetex() {
                           without waiting for a clinic visit
                         </li>
                       </ul>
-                    </p>
+                    {/* </p> */}
                   </div>
                 </div>
 
