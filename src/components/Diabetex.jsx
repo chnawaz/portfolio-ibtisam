@@ -51,7 +51,7 @@ function Diabetex() {
   }, []);
   return (
     <>
-      <div className="max-w-[1336px]  flex flex-col gap-[32px] m-auto xl:px-8 2xl:px-0">
+      <div className="max-w-[1336px]  flex flex-col gap-[32px] m-auto xl:px-8 2xl">
         <Navbar />
         {/* main content div after navbar start */}
         <div className="w-full flex flex-col gap-[80px]">
