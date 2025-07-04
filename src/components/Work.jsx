@@ -6,6 +6,7 @@ import img3 from "../assets/diabticsimages/img3.png";
 import img4 from "../assets/diabticsimages/img4.png";
 import img5 from "../assets/diabticsimages/img5.png";
 
+import Blur from "./Blur"
 
 
 
@@ -53,7 +54,8 @@ function Work() {
             <div className="w-[50%] gap-[24px] flex flex-col">
               <div className="object-cover h-[395px] image">
                 <a href="/work">
-                  <img className=" object-cover h-[395px] w-full hover:scale-105 duration-400" src={img1} alt="" />
+                  {/* <img className=" object-cover h-[395px] w-full hover:scale-105 duration-400"  alt="" />  */}
+                  <Blur img={img1}/>
                 </a>
               </div>
               <div className=" gap-[12px] flex flex-col">
@@ -81,7 +83,8 @@ function Work() {
             <div className="w-[50%] gap-[24px] flex flex-col">
               <div className="">
                 <a href="/work">
-                  <img className="object-cover h-[395px] w-full hover:scale-105 duration-400" src={img2} alt="" />
+                  {/* <img className="object-cover h-[395px] w-full hover:scale-105 duration-400" src={img2} alt="" /> */}
+                  <Blur img={img2}/>
                 </a>
               </div>
               <div className=" gap-[12px] flex flex-col">
@@ -114,7 +117,8 @@ function Work() {
             <div className="w-[50%] gap-[24px] flex flex-col ">
               <div className="">
                 <a href="/work">
-                  <img className="object-cover h-[395px] w-full hover:scale-105 duration-400" src={img3} alt="" />
+                  {/* <img className="object-cover h-[395px] w-full hover:scale-105 duration-400" src={img3} alt="" /> */}
+                  <Blur img={img3}/>
                 </a>
               </div>
               <div className=" gap-[12px] flex flex-col">
@@ -142,7 +146,8 @@ function Work() {
             <div className=" w-[50%] gap-[24px] flex flex-col">
               <div className="">
                 <a href="/work">
-                  <img className="object-cover h-[395px] w-full hover:scale-105 duration-400" src={img4} alt="" />
+                  {/* <img className="object-cover h-[395px] w-full hover:scale-105 duration-400" src={img4} alt="" /> */}
+                  <Blur img={img4}/>
                 </a>
               </div>
               <div className=" gap-[12px] flex flex-col">
@@ -176,7 +181,8 @@ function Work() {
             <div className="w-[50%]  gap-[24px] flex flex-col">
               <div className="">
                 <a href="/work">
-                  <img className="object-cover h-[395px] w-full hover:scale-105 duration-400" src={img5} alt="" />
+                  {/* <img className="object-cover h-[395px] w-full hover:scale-105 duration-400" src={img5} alt="" /> */}
+                  <Blur img={img5}/>
                 </a>
               </div>
               <div className=" gap-[12px] flex flex-col">
