@@ -38,8 +38,8 @@ import img08 from "../assets/diabticsimages/wheat.png";
 import img09 from "../assets/diabticsimages/khr.png";
 import img110 from "../assets/diabticsimages/110.png";
 import imgg from "../assets/diabticsimages/g.png";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Navbar from "./Navbarr";
+import Footer from "./Footerr";
 // import { useEffect, useRef } from "react";
 
 function Diabetex() {
@@ -47,7 +47,7 @@ function Diabetex() {
     
   return (
     <>
-      <div className="max-w-[1336px]  flex flex-col gap-[32px] m-auto xl:px-8 2xl">
+      <div className="max-w-[1336px]  flex flex-col gap-[32px] m-auto xl:px-8 2xl:px-0 px-8">
         <Navbar />
         {/* main content div after navbar start */}
         <div className="w-full flex flex-col gap-[80px]">
@@ -56,26 +56,26 @@ function Diabetex() {
             <a href="/">
               <div className="w-full flex gap-[8px] items-center">
                 <HiArrowSmLeft className="w-[32px] h-[32px]" />
-                <p className="font-bold text-[24px] leading-[120%] tracking-[0px]">
+                <p className="font-bold md:text-[24px] text-[18px] leading-[120%] tracking-[0px]">
                   Back To Home
                 </p>
               </div>
             </a>
-            <div className=" w-full flex gap-[24px] p-[48px] bg-[#99DAC6] items-center">
-              <div className="flex flex-col gap-[12px] w-[45%] ">
+            <div className=" w-full md:flex md:flex-row flex-col gap-[24px] p-[48px] bg-[#99DAC6] items-center ">
+              <div className="flex flex-col gap-[12px] md:w-[45%] w-full">
                 <div className="w-full">
-                  <p className="font-extrabold text-[48px] leading-[120%] tracking-[0px]">
+                  <p className="font-extrabold md:text-[48px] text-[42px] leading-[120%] tracking-[0px]">
                     Diabetex - Pocket Clinic
                   </p>
                 </div>
                 <div className="w-full">
-                  <p className="font-medium text-[24px] leading-[130%] tracking-[0px] text-slate-600">
+                  <p className="font-medium  md:text-[24px] text-[18px] leading-[130%] tracking-[0px] text-slate-600">
                     Health and wellness app that will help patients with
                     Diabetes to monitor, cope and eventually treat the illness.
                   </p>
                 </div>
               </div>
-              <div className="flex gap-[17px] w-[55%]">
+              <div className="flex gap-[17px] md:w-[55%] w-full">
                 <div className="bg-[#ffffff75] p-[7px] rounded-[8.35px] shadow-[0px_2.46px_24.63px_0px_#0000000F]">
                   <img className=" rounded-[8.35px]" src={img1} alt="" />
                 </div>
@@ -91,30 +91,30 @@ function Diabetex() {
           {/* 1st div inside main div end */}
 
           {/* 2nd div inside main div big div start */}
-          <div className="w-full felx flex-col px-[120px] gap-[120px]">
+          <div className="w-full md:felx md:flex-col md:px-[120px] gap-[120px] items-center justify-center ">
             {/* 1st div iside big div start */}
             <div className="w-full flex flex-col gap-[32px]">
               <div className="w-full flex gap-[24px]">
                 <div className="w-[50%] flex flex-col gap-[24px]">
                   <div className="w-full">
-                    <p className="font-bold text-[24px] leading-[120%] tracking-[0px]">
+                    <p className="font-bold md:text-[24px] text-[18px] leading-[120%] tracking-[0px]">
                       12 Weeks
                     </p>
                   </div>
                   <div className="w-full">
-                    <p className="font-bold text-[24px] leading-[120%] tracking-[0px]">
+                    <p className="font-bold md:text-[24px] text-[18px] leading-[120%] tracking-[0px]">
                       End To End UI UX Design Process
                     </p>
                   </div>
                 </div>
                 <div className="w-[50%] flex flex-col gap-[24px]">
                   <div className="w-full">
-                    <p className="font-bold text-[24px] leading-[120%] tracking-[0px]">
+                    <p className="font-bold md:text-[24px] text-[18px] leading-[120%] tracking-[0px]">
                       Solo Project
                     </p>
                   </div>
                   <div className="w-full">
-                    <p className="font-bold text-[24px] leading-[120%] tracking-[0px]">
+                    <p className="font-bold md:text-[24px] text-[18px] leading-[120%] tracking-[0px]">
                       Mobile Application
                     </p>
                   </div>
@@ -124,7 +124,7 @@ function Diabetex() {
                 <div className="mt-0.5">
                   <a
                     href=""
-                    className="font-extrabold text-[24px] leading-[120%] tracking-[0px]  decoration-solid decoration-[0px]  text-white "
+                    className="font-extrabold md:text-[24px] text-[18px] leading-[120%] tracking-[0px]  decoration-solid decoration-[0px]  text-white "
                   >
                     Experience Project Prototype
                      <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span>
@@ -141,17 +141,17 @@ function Diabetex() {
             {/* 2st div iside big div start */}
             <div className="w-full flex flex-col gap-[16px] mt-[120px]">
               <div className="w-full">
-                <p className="font-bold text-[20px] leading-[120%] tracking-[0px] uppercase text-slate-600">
+                <p className="font-bold md:text-[20px] text-[14px] leading-[120%] tracking-[0px] uppercase text-slate-600">
                   Problem
                 </p>
               </div>
               <div className="w-full">
-                <p className="font-bold text-[40px] leading-[120%] tracking-[0px]">
+                <p className="font-bold md:text-[40px] text-[32px] leading-[120%] tracking-[0px]">
                   Type 2 diabetes is reversible, but the patient fails to heal
                 </p>
               </div>
               <div className="w-full">
-                <p className="font-medium text-[24px] leading-[130%] tracking-[0px] text-slate-600">
+                <p className="font-medium md:text-[24px] text-[18px] leading-[130%] tracking-[0px] text-slate-600">
                   Diabetes can be reversed, but only through proper diet control
                   and lifestyle changes. A group of doctors approached me to
                   develop a solution to help their Type 2 diabetes patients heal
@@ -162,41 +162,41 @@ function Diabetex() {
             {/* 2st div iside big div end */}
 
             {/* 3nd div inside main div big div it aslo big div start */}
-            <div className="w-full flex flex-col gap-[88px] mt-[120px] ">
+            <div className="w-full flex flex-col gap-[88px] mt-[120px] items-center justify-center ">
               {/* 1st in 3rd big start */}
               <div className="w-full flex flex-col gap-[16px]">
                 <div className="w-full">
-                  <p className="font-bold text-[20px] leading-[120%] tracking-[0px] uppercase text-slate-600">
+                  <p className="font-bold md:text-[20px] text-[14px] leading-[120%] tracking-[0px] uppercase text-slate-600">
                     Solution
                   </p>
                 </div>
                 <div className="w-full">
-                  <p className="font-bold text-[40px] leading-[120%] tracking-[0px] ">
+                  <p className="font-bold md:text-[40px] text-[32px] leading-[120%] tracking-[0px] ">
                     A pocket clinic with 24/7 access to doctors is a key
                   </p>
                 </div>
               </div>
               {/* 1st in 3rd big end */}
               {/* 2nd in 3rd big start */}
-              <div  className="w-full flex  gap-[64px] items-center justify-between relative">
+              <div  className="w-full md:flex  md:flex-row flex flex-col gap-[64px] items-center md:justify-between relative ">
                 <img
                   src={imgg}
                   alt=""
-                  className="w-[30%] absolute top-[84px] left-[-53px]"
+                  className="md:max-w-[30%] absolute md:top-[84px] md:left-[-53px] top-[80px] left-[-45px] hidden md:block"
                 />
                 <div className="bg-[#ffffff75] p-[7px] rounded-[8.35px] shadow-[0px_2.46px_24.63px_0px_#0000000F] max-w-[217px] z-10">
                   <img className=" rounded-[8.35px]" src={img31} alt="" />
                 </div>
 
-                <div className="flex flex-col gap-[10px] max-w-[554.3px]">
+                <div className="flex flex-col gap-[10px] md:max-w-[554.3px] w-full">
                   <div className="">
-                    <p className="font-extrabold text-[32px] leading-[120%] tracking-[0px]">
+                    <p className="font-extrabold md:text-[32px] text-[26px] leading-[120%] tracking-[0px]">
                       Have Accountability Partner
                     </p>
                   </div>
                   <div className="w-full bullet-text">
                     {/* <p className="font-medium text-[24px] leading-[150%] tracking-[0px] text-slate-600 "> */}
-                      <ul className="list-disc pl-8 font-medium text-[24px] leading-[150%] tracking-[0px] text-slate-600">
+                      <ul className="list-disc pl-8 font-medium md:text-[24px] text-[18px] leading-[150%] tracking-[0px] text-slate-600">
                         <li>
                           Stay connected with your doctor 24/7 for guidance and
                           support during any complications
@@ -207,44 +207,44 @@ function Diabetex() {
                     {/* </p> */}
                   </div>
                   <div className="w-full">
-                    <p className="font-medium text-[16px] leading-[150%] tracking-[0px] text-slate-600">
+                    <p className="font-medium md:text-[16px] text-[10px] leading-[150%] tracking-[0px] text-slate-600">
                       *Patient-centered approach that empowers individuals with
                       Type 2 Diabetes, offering a positive alternative to the
                       traditionally paternalistic standard care.{" "}
-                      <span className="font-medium text-[16px] leading-[150%] tracking-[0px] underline decoration-solid decoration-[0px] underline-offset-[0px]">
+                      <span className="font-medium md:text-[16px] text-[10px] leading-[150%] tracking-[0px] underline decoration-solid decoration-[0px] underline-offset-[0px]">
                         (Research Source)
                       </span>
                     </p>
                   </div>
                 </div>
 
-                <div className="max-w-[196px]">
-                  <p className="font-bold text-[200px] leading-[130%] tracking-[0px] text-[#0000000D]">
+                <div className="md:max-w-[196px] w-full ">
+                  <p className="font-bold md:text-[200px] text-[150px] leading-[130%] tracking-[0px] text-[#0000000D]">
                     01
                   </p>
                 </div>
               </div>
               {/* 2nd in 3rd big end */}
               {/* 3rd in 3rd big start */}
-              <div className="w-full flex  gap-[64px] items-center justify-between relative">
+              <div className="w-full md:flex  md:flex-row flex flex-col gap-[64px] items-center md:justify-between justify-center relative">
                 <img
                   src={imgg}
                   alt=""
-                  className="w-[30%] absolute top-[84px] left-[-53px]"
+                  className=" md:w-[30%] absolute top-[84px] left-[-53px] hidden md:block"
                 />
                 <div className="bg-[#ffffff75] p-[7px] rounded-[8.35px] shadow-[0px_2.46px_24.63px_0px_#0000000F] max-w-[217px] z-10">
                   <img className=" rounded-[8.35px]" src={img32} alt="" />
                 </div>
 
-                <div className="flex flex-col gap-[10px] w-[45%]">
+                <div className="flex flex-col gap-[10px] md:w-[45%] w-full ">
                   <div className="w-full">
-                    <p className="font-extrabold text-[32px] leading-[120%] tracking-[0px]">
+                    <p className="font-extrabold md:text-[32px] text-[26px] leading-[120%] tracking-[0px]">
                       Daily Checkup
                     </p>
                   </div>
                   <div className="w-full">
                     {/* <p className="font-medium text-[24px] leading-[150%] tracking-[0px] text-slate-600"> */}
-                      <ul className="list-disc pl-8 font-medium text-[24px] leading-[150%] tracking-[0px] text-slate-600">
+                      <ul className="list-disc pl-8 font-medium md:text-[24px] text-[18px] leading-[150%] tracking-[0px] text-slate-600">
                         <li>
                           Send your biomarker report before and after the meal
                         </li>
@@ -257,33 +257,33 @@ function Diabetex() {
                   </div>
                 </div>
 
-                <div className="w-[25%]">
-                  <p className="font-bold text-[200px] leading-[130%] tracking-[0px] text-[#0000000D]">
+                <div className="md:w-[25%] w-full">
+                  <p className="font-bold md:text-[200px] text-[150px] leading-[130%] tracking-[0px] text-[#0000000D]">
                     02
                   </p>
                 </div>
               </div>
               {/* 3rd in 3rd big end */}
               {/* 4th in 3rd big start */}
-              <div className="w-full flex  gap-[64px] items-center justify-between relative">
+              <div className="w-full md:flex md:flex-row flex flex-col  gap-[64px] items-center justify-between relative">
                 <img
                   src={imgg}
                   alt=""
-                  className="w-[30%] absolute top-[84px] left-[-53px]"
+                  className="w-[30%] absolute top-[84px] left-[-53px] hidden md:block"
                 />
                 <div className="bg-[#ffffff75] p-[7px] rounded-[8.35px] shadow-[0px_2.46px_24.63px_0px_#0000000F] max-w-[217px] z-10">
                   <img className=" rounded-[8.35px]" src={img33} alt="" />
                 </div>
 
-                <div className="flex flex-col gap-[10px] w-[45%]">
+                <div className="flex flex-col gap-[10px] md:w-[45%] w-full">
                   <div className="w-full">
-                    <p className="font-extrabold text-[32px] leading-[120%] tracking-[0px]">
+                    <p className="font-extrabold md:text-[32px] text-[26px] leading-[120%] tracking-[0px]">
                       Send Evidence
                     </p>
                   </div>
                   <div className="w-full">
                     {/* <p className="font-medium text-[24px] leading-[150%] tracking-[0px] text-slate-600"> */}
-                      <ul className="list-disc pl-8 font-medium text-[24px] leading-[150%] tracking-[0px] text-slate-600">
+                      <ul className="list-disc pl-8 font-medium  md:text-[24px] text-[18px] leading-[150%] tracking-[0px] text-slate-600">
                         <li>Send Proof of completing your tasks</li>
                         <li>
                           Make sure to log your blood pressure, sugar level and
@@ -294,33 +294,33 @@ function Diabetex() {
                   </div>
                 </div>
 
-                <div className="w-[25%]">
-                  <p className="font-bold text-[200px] leading-[130%] tracking-[0px] text-[#0000000D]">
+                <div className="md:w-[25%] w-full">
+                  <p className="font-bold md:text-[200px] text-[150px] leading-[130%] tracking-[0px] text-[#0000000D]">
                     03
                   </p>
                 </div>
               </div>
               {/* 4th in 3rd big end */}
               {/* 5th in 3rd big start */}
-              <div className="w-full flex  gap-[64px] items-center justify-between relative">
+              <div className="w-full md:flex  md:flex-row flex flex-col gap-[64px] items-center justify-between relative">
                 <img
                   src={imgg}
                   alt=""
-                  className="w-[30%] absolute top-[84px] left-[-53px]"
+                  className="w-[30%] absolute top-[84px] left-[-53px] hidden md:block"
                 />
                 <div className="bg-[#ffffff75] p-[7px] rounded-[8.35px] shadow-[0px_2.46px_24.63px_0px_#0000000F] max-w-[217px] z-10">
                   <img className=" rounded-[8.35px]" src={img34} alt="" />
                 </div>
 
-                <div className="flex flex-col gap-[10px] w-[45%]">
+                <div className="flex flex-col gap-[10px] md:w-[45%] w-full">
                   <div className="w-full">
-                    <p className="font-extrabold text-[32px] leading-[120%] tracking-[0px]">
+                    <p className="font-extrabold md:text-[32px] text-[26px] leading-[120%] tracking-[0px]">
                       Continuous Assistance
                     </p>
                   </div>
                   <div className="w-full">
                     {/* <p className="font-medium text-[24px] leading-[150%] tracking-[0px] text-slate-600"> */}
-                      <ul className="list-disc pl-10 font-medium text-[24px] leading-[150%] tracking-[0px] text-slate-600">
+                      <ul className="list-disc pl-10 font-medium md:text-[24px] text-[18px] leading-[150%] tracking-[0px] text-slate-600">
                         <li>
                           Let the expert assist you with any complications
                         </li>
@@ -333,8 +333,8 @@ function Diabetex() {
                   </div>
                 </div>
 
-                <div className="w-[25%]">
-                  <p className="font-bold text-[200px] leading-[130%] tracking-[0px] text-[#0000000D]">
+                <div className="md:w-[25%] w-full">
+                  <p className="font-bold md:text-[200px] text-[150px] leading-[130%] tracking-[0px] text-[#0000000D]">
                     04
                   </p>
                 </div>
@@ -346,18 +346,18 @@ function Diabetex() {
             {/* 4th div iside big div start */}
             <div className="w-full flex flex-col gap-[16px] mt-[120px]">
               <div className="w-full">
-                <p className="font-bold text-[20px] leading-[120%] tracking-[0px] uppercase text-slate-600">
+                <p className="font-bold md:text-[20px] text-[14px] leading-[120%] tracking-[0px] uppercase text-slate-600">
                   White Paper Research
                 </p>
               </div>
               <div className="w-full">
-                <p className="font-bold text-[40px] leading-[120%] tracking-[0px]">
+                <p className="font-bold md:text-[40px] text-[34px] leading-[120%] tracking-[0px]">
                   Patient-centered approach that empowers individuals with Type
                   2 Diabetes
                 </p>
               </div>
               <div className="w-full">
-                <p className="font-medium text-[24px] leading-[150%] tracking-[0px] text-slate-600">
+                <p className="font-medium md:text-[24px] text-[18px] leading-[150%] tracking-[0px] text-slate-600">
                   Working with an expert group of doctors made it much easier to
                   find good scholarly research papers. A doctor recommended I
                   check out the "National Library of Medicine," and that’s where
@@ -365,14 +365,14 @@ function Diabetex() {
                 </p>
               </div>
               <div className="w-full">
-                <p className="font-bold text-[24px] leading-[150%] tracking-[0px]">
+                <p className="font-bold md:text-[24px] text-[18px] leading-[150%] tracking-[0px]">
                   “Some patients with Type 2 Diabetes are receptive to
                   motivational interviewing which is a provider approach that is
                   more patient-centered and empowering than traditional care”
                 </p>
               </div>
               <div className="w-full">
-                <p className="font-medium text-[24px] leading-[150%] tracking-[0px]  decoration-solid decoration-[0px] underline-offset-[0px] text-blue-600  ">
+                <p className="font-medium md:text-[24px] text-[18px] leading-[150%] tracking-[0px]  decoration-solid decoration-[0px] underline-offset-[0px] text-blue-600  ">
                   Research Source
                 </p>
               </div>
@@ -381,21 +381,21 @@ function Diabetex() {
             {/* 5th div iside big div start */}
             <div className="w-full flex flex-col gap-[16px] mt-[120px]">
               <div className="w-full">
-                <p className="font-bold text-[20px] leading-[120%] tracking-[0px] uppercase text-slate-600">
+                <p className="font-bold md:text-[20px] text-[14px] leading-[120%] tracking-[0px] uppercase text-slate-600">
                   Competitive Analysis And GAps
                 </p>
               </div>
               <div className="w-full">
-                <p className="font-bold text-[40px] leading-[120%] tracking-[0px]">
+                <p className="font-bold md:text-[40px] text-[34px] leading-[120%] tracking-[0px]">
                   The Competitors had{" "}
-                  <span className="font-extrabold text-[40px] leading-[120%] tracking-[0px] uppercase">
+                  <span className="font-extrabold md:text-[40px] text-[34px] leading-[120%] tracking-[0px] uppercase">
                     No 24hr doctor
                   </span>{" "}
                   support
                 </p>
               </div>
               <div className="w-full">
-                <p className="font-medium text-[24px] leading-[150%] tracking-[0px] text-slate-600">
+                <p className="font-medium md:text-[24px] text-[18px] leading-[150%] tracking-[0px] text-slate-600">
                   There are many health and wellness apps in the market, but
                   none of them provide 24-hour real doctor support with a
                   patient centered approach.
