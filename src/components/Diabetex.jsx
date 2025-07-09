@@ -429,12 +429,12 @@ function Diabetex() {
             {/* 6th div iside big div start */}
             <div className="w-full flex flex-col gap-[32px] mt-[120px]">
               <div className="w-full">
-                <p className="font-bold text-[20px] leading-[120%] tracking-[0px] uppercase text-slate-600">
+                <p className="font-bold md:text-[20px] text-[14px] leading-[120%] tracking-[0px] uppercase text-slate-600">
                   Interview Findings
                 </p>
               </div>
               <div className="w-full">
-                <p className="font-bold text-[40px] leading-[120%] tracking-[0px]">
+                <p className="font-bold md:text-[40px] text-[34px] leading-[120%] tracking-[0px]">
                   Type 2 diabetes patients are three times more likely to
                   succeed in reversing their condition when their goals are
                   supported with accountability and a tailored, patient-focused
@@ -442,7 +442,7 @@ function Diabetex() {
                 </p>
               </div>
               <div className="w-full">
-                <p className="font-medium text-[24px] leading-[150%] tracking-[0px] text-slate-600">
+                <p className="font-medium md:text-[24px] text-[18px] leading-[150%] tracking-[0px] text-slate-600">
                   I conducted interviews with a group of six diabetes patients,
                   including my father, to gain valuable insights into their
                   experiences and challenges. From these interviews, I concluded
@@ -451,12 +451,12 @@ function Diabetex() {
                 </p>
               </div>
               <div className="w-full">
-                <p className="font-bold text-[24px] leading-[150%] tracking-[0px]">
+                <p className="font-bold md:text-[24px] text-[18px] leading-[150%] tracking-[0px]">
                   Interview Questions
                 </p>
               </div>
               <div className="w-full">
-                <p className="font-medium text-[24px] leading-[150%] tracking-[0px] text-slate-600">
+                <p className="font-medium md:text-[24px] text-[18px] leading-[150%] tracking-[0px] text-slate-600">
                   <ol className="list-decimal pl-10 ">
                     <li>
                       What challenges do you face daily in managing your
@@ -495,12 +495,12 @@ function Diabetex() {
             <div className="w-full flex flex-col gap-[32px] mt-[120px]">
               <div className="w-full flex flex-col gap-[16px] ">
                 <div className="w-full">
-                  <p className="font-bold text-[20px] leading-[120%] tracking-[0px] uppercase text-slate-600">
+                  <p className="font-bold md:text-[20px] text-[14px] leading-[120%] tracking-[0px] uppercase text-slate-600">
                     User Persona
                   </p>
                 </div>
                 <div className="w-full">
-                  <p className="font-bold text-[40px] leading-[120%] tracking-[0px]">
+                  <p className="font-bold md:text-[40px] text-[34px] leading-[120%] tracking-[0px]">
                     I want to improve my heath and lifestyle
                   </p>
                 </div>
@@ -515,12 +515,12 @@ function Diabetex() {
                 </div>
                 <div className="felx flex-col gap-[16px] my-[15.83px]">
                   <div className="w-full">
-                    <p className="font-bold text-[32px] leading-[120%] tracking-[0px]">
+                    <p className="font-bold md:text-[32px] text-[26px] leading-[120%] tracking-[0px]">
                       Ibrahim Najjar
                     </p>
                   </div>
                   <div className="w-full bullet-text">
-                    <p className="font-medium text-[24px] leading-[150%] tracking-[0px] text-slate-600 ">
+                    <p className="font-medium md:text-[24px] text-[18px] leading-[150%] tracking-[0px] text-slate-600 ">
                       <ul className="list-disc pl-10">
                         <li> Male</li>
                         <li> 48 years old</li>
@@ -533,12 +533,12 @@ function Diabetex() {
               </div>
               <div className="w-full flex flex-col gap-[12px]">
                 <div className="w-full">
-                  <p className="font-bold text-[24px] leading-[150%] tracking-[0px]">
+                  <p className="font-bold md:text-[24px] text-[18px] leading-[150%] tracking-[0px]">
                     Story
                   </p>
                 </div>
                 <div className="w-full">
-                  <p className="font-medium text-[24px] leading-[150%] tracking-[0px] text-slate-600">
+                  <p className="font-medium md:text-[24px] text-[18px] leading-[150%] tracking-[0px] text-slate-600">
                     Ibrahim Najjar is a 48-year-old professional who’s been
                     managing Type 2 diabetes for several years. With a busy life
                     balancing work and family, he often struggles to keep his
@@ -552,12 +552,12 @@ function Diabetex() {
                 <div className="w-full flex gap-[32px]">
                   <div className="flex flex-col w-full bg-emerald-200 pt-4 pr-6 pb-4 pl-6 gap-[12px] relative">
                     <div className="w-full">
-                      <p className="font-cabinet font-bold text-[20px] leading-[1.2] tracking-[0em]">
+                      <p className="font-cabinet font-bold md:text-[20px] text-[14px] leading-[1.2] tracking-[0em]">
                         Goals
                       </p>
                     </div>
                     <div className="w-full">
-                      <p className="font-medium text-[16px] leading-[1.5] tracking-[0em] text-slate-600">
+                      <p className="font-medium md:text-[16px] text-[10px] leading-[1.5] tracking-[0em] text-slate-600">
                         <ul className="list-disc pl-8 ">
                           <li>Reverse diabetes, stay healthy</li>
                           <li>
@@ -577,12 +577,12 @@ function Diabetex() {
                   </div>
                   <div className="flex flex-col w-full bg-emerald-200 pt-4 pr-6 pb-4 pl-6 gap-[12px] relative">
                     <div className="w-full">
-                      <p className="font-cabinet font-bold text-[20px] leading-[1.2] tracking-[0em]">
+                      <p className="font-cabinet font-bold md:text-[20px] text-[14px] leading-[1.2] tracking-[0em]">
                         Pain Points
                       </p>
                     </div>
                     <div className="w-full">
-                      <p className="font-medium text-[16px] leading-[1.5] tracking-[0em] text-slate-600">
+                      <p className="font-medium md:text-[16px] text-[10px] leading-[1.5] tracking-[0em] text-slate-600">
                         <ul className="list-disc pl-8 ">
                           <li>Balancing health with life</li>
                           <li>Lack of personalized guidance</li>
@@ -600,12 +600,12 @@ function Diabetex() {
                   </div>
                   <div className="flex flex-col w-full bg-emerald-200 pt-4 pr-6 pb-4 pl-6 gap-[12px] relative">
                     <div className="w-full">
-                      <p className="font-cabinet font-bold text-[20px] leading-[1.2] tracking-[0em]">
+                      <p className="font-cabinet font-bold md:text-[20px] text-[14px] leading-[1.2] tracking-[0em]">
                         Motivation
                       </p>
                     </div>
                     <div className="w-full">
-                      <p className="font-medium text-[16px] leading-[1.5] tracking-[0em] text-slate-600">
+                      <p className="font-medium md:text-[16px] text-[10px] leading-[1.5] tracking-[0em] text-slate-600">
                         <ul className="list-disc pl-8 ">
                           <li>Take control of health</li>
                           <li>Support through tailored plan</li>
@@ -633,12 +633,12 @@ function Diabetex() {
                 <div className="w-full flex flex-col gap-[32px]">
                   <div className="w-full flex flex-col gap-[16px]">
                     <div className="w-full">
-                      <p className="font-bold text-[20px] leading-[1.2] tracking-[0em] uppercase text-slate-600">
+                      <p className="font-bold md:text-[20px] text-[14px] leading-[1.2] tracking-[0em] uppercase text-slate-600">
                         WireFrames
                       </p>
                     </div>
                     <div className="w-full">
-                      <p className="font-bold text-[40px] leading-[1.2] tracking-[0em]">
+                      <p className="font-bold md:text-[40px] text-[34px] leading-[1.2] tracking-[0em]">
                         Keep iterating until the solution is user-centered
                       </p>
                     </div>
@@ -662,7 +662,7 @@ function Diabetex() {
                 {/* 2nd div in 8th start  */}
                 <div className="w-full flex flex-col gap-[32px]">
                   <div className="w-full">
-                    <p className="font-bold text-[40px] leading-[1.2] tracking-[0em]">
+                    <p className="font-bold md:text-[40px] text-[34px] leading-[1.2] tracking-[0em]">
                       Finalized version after a thorough discussion session and
                       multiple iterations
                     </p>
@@ -674,12 +674,12 @@ function Diabetex() {
                 <div className="w-full flex flex-col gap-[32px]">
                   <div className="w-full flex flex-col gap-[16px]">
                     <div className="w-full">
-                      <p className="font-bold text-[20px] leading-[1.2] tracking-[0em] uppercase text-slate-600">
+                      <p className="font-bold md:text-[20px] text-[14px] leading-[1.2] tracking-[0em] uppercase text-slate-600">
                         USer Interface
                       </p>
                     </div>
                     <div className="w-full">
-                      <p className="font-bold text-[40px] leading-[1.2] tracking-[0em]">
+                      <p className="font-bold md:text-[40px] text-[34px] leading-[1.2] tracking-[0em]">
                         The finalized Hi-fidelity designs
                       </p>
                     </div>
@@ -779,12 +779,12 @@ function Diabetex() {
                     <div className="w-full flex flex-col gap-[48px]">
                       <div className="w-full flex flex-col gap-[16px]">
                         <div className="w-full">
-                          <p className="font-bold text-[20px] leading-[1.2] tracking-[0em] uppercase text-slate-600">
+                          <p className="font-bold md:text-[20px] text-[14px] leading-[1.2] tracking-[0em] uppercase text-slate-600">
                             USer Flow
                           </p>
                         </div>
                         <div className="w-full">
-                          <p className="font-bold text-[40px] leading-[1.2] tracking-[0em]">
+                          <p className="font-bold md:text-[40px] text-[34px] leading-[1.2] tracking-[0em]">
                             The architect behind a seamless and cohesive app
                             journey.
                           </p>
@@ -798,24 +798,24 @@ function Diabetex() {
                   <div className="w-full flex flex-col gap-[32px]">
                     <div className="w-full flex flex-col gap-[16px]">
                       <div className="w-full">
-                        <p className="font-bold text-[20px] leading-[1.2] tracking-[0em] uppercase text-slate-600">
+                        <p className="font-bold md:text-[20px] text-[14px] leading-[1.2] tracking-[0em] uppercase text-slate-600">
                           The Style Guide
                         </p>
                       </div>
                       <div className="w-full">
-                        <p className="font-bold text-[40px] leading-[1.2] tracking-[0em]">
+                        <p className="font-bold md:text-[40px] text-[34px] leading-[1.2] tracking-[0em]">
                           Created a mood-refreshing style guide for impactful
                           designs.
                         </p>
                       </div>
                       <div className="w-full">
-                        <p className="font-medium text-[24px] leading-[1.5] tracking-[0em] text-slate-600">
+                        <p className="font-medium md:text-[24px] text-[18px] leading-[1.5] tracking-[0em] text-slate-600">
                           Create a blend of modern and minimal vibes to make the
                           app look and feel good.
                         </p>
                       </div>
                     </div>
-                    <div className="w-full flex gap-[48px]">
+                    <div className="w-full md:flex md:flex-row flex flex-col gap-[48px] items-center">
                       <div className="flex flex-col gap-[9.33px]">
                         <div
                           className="w-[333.33334px] h-[113.54011px] gap-[7.78px] p-[18.66px] flex flex-col "
@@ -865,7 +865,7 @@ function Diabetex() {
                         Sporting Colors
                       </p>
                     </div>
-                    <div className="w-full flex gap-[80px]">
+                    <div className="w-full md:flex md:flex-row flex flex-col gap-[80px] items-center ">
                       <div className="flex gap-[48px] w-[312px]">
                         <div className="w-full flex gap-[10px] relative">
                           <div className=" w-full flex flex-col gap-[5.38px] p-[12.9px] bg-[#A5BE82] pt-[174.9px]">
@@ -927,7 +927,7 @@ function Diabetex() {
                         </div>
                       </div>
                     </div>
-                    <div className="w-full flex gap-[80px]">
+                    <div className="w-full md:flex md:flex-row flex flex-col items-center gap-[80px]">
                       <div className="flex gap-[48px] w-[312px]">
                         <div className="w-full flex gap-[10px] relative">
                           <div className=" w-full flex flex-col gap-[5.38px] p-[12.9px] bg-[#D7E5ED] pt-[174.9px]">
@@ -972,47 +972,47 @@ function Diabetex() {
                   </div>
                   {/* 8.4.3 end */}
                   {/* 8.4.4 start */}
-                  <div className="w-full flex gap-[32px]">
+                  <div className="w-full md:flex md:flex-row flex flex-col items-center gap-[32px]">
                     <div className="flex flex-col gap-[48px]">
-                      <p className="font-bold text-[40px] leading-[1.2] tracking-[0em]">
+                      <p className="font-bold md:text-[40px] text-[34px]  leading-[1.2] tracking-[0em]">
                         Typography
                       </p>
                       <div className="flex flex-col gap-[32px]">
                         <div className="flex flex-col gap-[8px]">
-                          <p className=" font-bold text-[32px] leading-[1.2] tracking-[0em]">
+                          <p className=" font-bold md:text-[32px] text-[26px] leading-[1.2] tracking-[0em]">
                             Satoshi
                           </p>
-                          <p className="font-medium text-[24px] leading-[1.5] tracking-[0em] text-slate-600">
+                          <p className="font-medium md:text-[24px] text-[18px] leading-[1.5] tracking-[0em] text-slate-600">
                             This font is used in heading or sub heading and
                             Buttons
                           </p>
                         </div>
                         <div className="flex flex-col gap-[8px]">
-                          <p className=" font-bold text-[32px] leading-[1.2] tracking-[0em]">
+                          <p className=" font-bold md:text-[32px] text-[26px] leading-[1.2] tracking-[0em]">
                             Cabinet Grotesk Variable
                           </p>
-                          <p className="font-medium text-[24px] leading-[1.5] tracking-[0em] text-slate-600">
+                          <p className="font-medium md:text-[24px] text-[18px] leading-[1.5] tracking-[0em] text-slate-600">
                             This font is used in Body Text.
                           </p>
                         </div>
                       </div>
                     </div>
-                    <img src={img110} alt="" className="w-[501px]" />
+                    <img src={img110} alt="" className="md:w-[501px]" />
                   </div>
                   {/* 8.4.4 end */}
                   {/* 8.4.5 start */}
                   <div className="w-full flex flex-col gap-[32px] ">
                     <div className="flex flex-col gap-[16px]">
-                      <p className=" font-bold text-[20px] leading-[1.2] tracking-[0em] uppercase text-slate-600">
+                      <p className=" font-bold md:text-[20px] text-[14px] leading-[1.2] tracking-[0em] uppercase text-slate-600">
                         Main TakeAways & What I would do differently
                       </p>
-                      <p className="font-bold text-[40px] leading-[1.2] tracking-[0em]">
+                      <p className="font-bold md:text-[40px] text-[34px] leading-[1.2] tracking-[0em]">
                         Give yourself room to make mistakes, keep learning, and
                         iterate until it's there.
                       </p>
-                      <p className="font-bold text-[24px] leading-[1.5] tracking-[0em]">
+                      <p className="font-bold md:text-[24px] text-[18px] leading-[1.5] tracking-[0em]">
                         Steve Jobs:{" "}
-                        <span className="font-medium text-[24px] leading-[1.5] tracking-[0em] text-slate-600">
+                        <span className="font-medium md:text-[24px] text-[18px] leading-[1.5] tracking-[0em] text-slate-600">
                           "Stay hungry, stay foolish."
                         </span>
                       </p>
